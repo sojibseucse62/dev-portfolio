@@ -17,6 +17,9 @@ header{
 .dark-03{
     color: #757575;
 }
+.dark-01{
+    color: #181818;
+}
 .btn-primary{
     background-color: #FD6E0A;
     border: none;
@@ -72,4 +75,131 @@ nav li a{
 .banner-content{
     max-width: 580px;
     margin-left: 200px;
+}
+.about-me{
+    /* display: flex; */
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    background-color: #FFF8F3;
+    /* background-color: white; */
+    padding: 70px 100px 70px 100px;
+    border-radius: 5px;
+  }
+.about-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.about-description {
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+}
+
+.personal-information {
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 60px; */
+}
+.name{
+    text-align: center;
+}
+.name-id{
+    font-weight: bold;
+}
+.email{
+    text-align: center;
+}
+.email-id{
+    font-weight: bold;
+}
+.birth{
+    text-align: center;
+}
+.birth-id{
+    font-weight: bold;
+}
+.address{
+    text-align: center;
+}
+.address-id{
+    font-weight: bold;
+}
+.experience-header{
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+
+.experience-head{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+.experience-head-description{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.experience{
+    display: flex;
+    justify-content: space-around;
+}
+.javascript{
+    margin-right: 35px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #e5e5e5;
+    padding: 20px 25px 20px 25px;
+}
+.react{
+    margin-right: 35px;
+    box-shadow: 1px 1px 20px #e5e5e5;
+    padding: 20px 25px 20px 25px;
+}
+.node{
+    margin-right: 35px;
+    box-shadow: 1px 1px 20px #e5e5e5;
+    padding: 20px 25px 20px 25px;
+}
+.mongodb{
+    margin-right: 35px;
+    box-shadow: 1px 1px 20px #e5e5e5;
+    padding: 20px 25px 20px 25px;
+}
+.resume-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+.edu-prof{
+    display: flex;
+}
+.education-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+.degree{
+    font-weight: bold;
+    font-size: 25px;
+}
+.academic-duration{
+    font-weight: 600;
+    font-size: 20px;
+}
+.edu-prof > .education{
+    margin-left: 250px;
+    margin-right: 80px;
+}
+.edu-prof > .prof-experience{
+    margin-right: 250px;
+}
+.btn-align{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 110px;
 }
